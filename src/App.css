@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0 0 0 0;
+}
+
+.title{
+  padding-top: 100px;
+  background-color: black;
+  font-size: 18pt;
+  text-align: center;
+}
+
+#t1{
+  color: blue;
+}
+
+#t2{
+  color: red;
+}
