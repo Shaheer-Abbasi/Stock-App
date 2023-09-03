@@ -36,6 +36,18 @@
   display: block;
 }
 
+.go--container{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.main--go{
+  margin-top: 3rem;
+  width: 50px;
+  height: 20px; 
+}
+
 .how-much{
   padding-top: 25px;
 }
