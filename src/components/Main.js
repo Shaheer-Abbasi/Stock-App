@@ -7,7 +7,7 @@ export default function Main()
     const [formData, setFormData] = React.useState({
         inputValue: "",
         shares: "",
-        revenue: ""
+        revenue: 0
     })
 
     React.useEffect(() => {
@@ -32,12 +32,12 @@ export default function Main()
         const newRevenue = stockData.c * formData.shares
         setFormData({
             ...formData, 
-            revenue: newRevenue
+            revenue: newRevenue.toFixed(2)
         })
     }
         
     return (
-        <main>
+        <main className="main">
             <h4 className="main--text">Type in the stock symbol</h4>
 
             <input
